@@ -1,0 +1,33 @@
+# Core
+pandas
+numpy
+requests
+
+# Finance Data
+yfinance
+
+# Parsing
+beautifulsoup4
+lxml
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+plotly
+
+# Web App
+streamlit
+
+# LLM
+ollama
+
+# Database
+sqlalchemy
+
+# Testing
+pytest
+
+# Optional
+jupyter

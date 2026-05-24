@@ -2,19 +2,12 @@
 # AI Financial Analytics Platform Controller
 
 import subprocess
-import os
-
-
-def clear():
-    os.system("cls" if os.name == "nt" else "clear")
 
 
 while True:
 
-    clear()
-
-    print("=" * 70)
-    print("   AI FINANCIAL ANALYTICS PLATFORM".center(70))
+    print("\n" + "=" * 70)
+    print("        AI FINANCIAL ANALYTICS PLATFORM")
     print("=" * 70)
 
     print("1. Stock + SEC Downloader")
@@ -36,7 +29,6 @@ while True:
         # 1 Downloader
         if choice == "1":
 
-            clear()
             print("\nRunning Stock + SEC Downloader...\n")
 
             subprocess.run(
@@ -52,7 +44,6 @@ while True:
         # 2 Preprocessing
         elif choice == "2":
 
-            clear()
             print("\nRunning Data Preprocessing...\n")
 
             subprocess.run(
@@ -63,7 +54,6 @@ while True:
         # 3 Database
         elif choice == "3":
 
-            clear()
             print("\nRunning Database Manager...\n")
 
             subprocess.run(
@@ -71,10 +61,9 @@ while True:
                 shell=True
             )
 
-        # 4 ML Model
+        # 4 ML Forecasting
         elif choice == "4":
 
-            clear()
             print("\nRunning ML Forecasting Model...\n")
 
             subprocess.run(
@@ -82,10 +71,9 @@ while True:
                 shell=True
             )
 
-        # 5 Classifier
+        # 5 Investment Classifier
         elif choice == "5":
 
-            clear()
             print("\nRunning Investment Classifier...\n")
 
             subprocess.run(
@@ -96,7 +84,6 @@ while True:
         # 6 Dashboard
         elif choice == "6":
 
-            clear()
             print("\nRunning Dashboard...\n")
 
             subprocess.run(
@@ -107,7 +94,6 @@ while True:
         # 7 AI Chatbot
         elif choice == "7":
 
-            clear()
             print("\nRunning AI Chatbot...\n")
 
             subprocess.run(
@@ -115,10 +101,9 @@ while True:
                 shell=True
             )
 
-        # 8 Full App
+        # 8 Full Streamlit App
         elif choice == "8":
 
-            clear()
             print("\nLaunching Full Streamlit App...\n")
 
             subprocess.run(

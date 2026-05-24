@@ -87,7 +87,7 @@ while True:
             print("\nRunning Dashboard...\n")
 
             subprocess.run(
-                "python dashboard/dashboard_app.py",
+                "streamlit run dashboard/dashboard_app.py",
                 shell=True
             )
 
@@ -97,7 +97,7 @@ while True:
             print("\nRunning AI Chatbot...\n")
 
             subprocess.run(
-                "python chatbot/ai_prediction_chatbot.py",
+                "streamlit run chatbot/ai_prediction_chatbot.py",
                 shell=True
             )
 

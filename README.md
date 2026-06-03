@@ -1,4 +1,4 @@
-# AI-Powered Financial Analysis Platform - Student Assignment
+# AI-Powered Financial Analysis Platform 
 
 ## 📋 Project Overview
 
